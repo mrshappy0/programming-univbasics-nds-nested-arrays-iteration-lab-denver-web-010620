@@ -28,8 +28,9 @@ def find_greater_pair(src)
     a << src[row_index].max(1)
     row_index +=1
   end 
+  a
 end
-a
+
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
