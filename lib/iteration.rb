@@ -23,12 +23,10 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   row_index = 0 
-  a = []
   while row_index < src.count do 
-    a << src[row_index].max(1)
+    src[row_index].max(1)
     row_index +=1
   end 
-  a
 end
 
 def total_even_pairs(src)
