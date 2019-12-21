@@ -8,10 +8,10 @@ def join_ingredients(src)
   row_index = 0
   a = []
   while row_index < src.count do
-      puts "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+      a << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
       row_index +=1 
   end
-  
+  a
   # "I love (inner array element 0) and (inner array element 1) on my pizza"
   # As such, there should be a new String for each inner array, or pair
   
